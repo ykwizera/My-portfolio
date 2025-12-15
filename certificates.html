@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Certificates - Yvette Kwizera</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .certificates-page {
+            min-height: 100vh;
+            padding-top: 100px;
+            padding-bottom: 50px;
+        }
+
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--primary-color);
+            text-decoration: none;
+            margin-bottom: 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .back-button:hover {
+            gap: 0.8rem;
+        }
+
+        .certificates-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="highlight">Y</span>vette <span class="highlight">K</span>wizera
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html#home" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#experience" class="nav-link">Experience</a></li>
+                <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="index.html#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="certificates-page">
+        <div class="container">
+            <a href="index.html#certificates" class="back-button">
+                <i class="fas fa-arrow-left"></i> Back to Portfolio
+            </a>
+            
+            <h1 class="section-title">All Certificates & Awards</h1>
+            <p class="section-subtitle">Complete list of my professional certifications and achievements</p>
+
+            <div class="certificates-list">
+                <!-- Certificate 1 -->
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Commonwealth Debate Championship 2022</h3>
+                    <p>Certificate of Participation</p>
+                    <a href="Assets/Common wealth debate.pdf" class="cert-link" download>
+                        <i class="fas fa-download"></i> Download PDF
+                    </a>
+                </div>
+
+                <!-- Certificate 2 -->
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>I.C.T. Boot Camp under Python</h3>
+                    <p>Certificate of Completion – CMU-Africa</p>
+                    <a href="Assets/KWIZERA Yvette__python cerificate.pdf" class="cert-link" download>
+                        <i class="fas fa-download"></i> Download PDF
+                    </a>
+                </div>
+
+                <!-- Certificate 3 -->
+                  <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Flutter and Dart</h3>
+                    <p>Certificate – Coursera</p>
+                    <a href="Assets/Flutter.pdf" class="cert-link" download>
+                        <i class="fas fa-download"></i> Download PDF
+                    </a>
+                </div>
+                <!-- Certificate 4 -->
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Financial Accounting</h3>
+                    <p>Certificate – Coursera</p>
+                    <a href="#" class="cert-link" download>
+                        <i class="fas fa-download"></i> Download PDF
+                    </a>
+                </div>
+
+                <!-- Certificate 5 -->
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Certificate of Appreciation</h3>
+                    <p>Head Girl – GSNDBC Byumba</p>
+                    <a href="Assets/Head Girl.pdf" class="cert-link" download>
+                        <i class="fas fa-download"></i> Download PDF
+                    </a>
+                </div>
+
+                <!-- Add more certificates below as needed -->
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Certificate of Participation</h3>
+                    <p>Debate on Rwanda's Central Bank Digital Currency</p>
+                    <a href="Assets/yvette cbdc.pdf" class="cert-link" download>
+                        <i class="fas fa-download"></i> Download PDF
+                    </a>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Certificate of Achievement</h3>
+                    <p>Completion of the CMU-Africa Bridge Program</p>
+                    <a href="Assets/Bridge final.pdf" class="cert-link" download>
+                        <i class="fas fa-download"></i> Download PDF
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Yvette Kwizera. All rights reserved.</p>
+            <p>Designed & Built with <i class="fas fa-heart"></i></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
